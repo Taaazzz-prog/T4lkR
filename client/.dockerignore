@@ -1,0 +1,69 @@
+# 🚫 T4lkR Frontend .dockerignore
+# En mémoire de Jerome Garnier (Psykup25)
+
+# 📦 Node.js
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🏗️ Build et distribution
+dist/
+build/
+.angular/
+.ng_pkg_build/
+
+# 🔐 Environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 📝 Logs et cache
+logs
+*.log
+.cache
+.tmp
+.temp
+
+# 🧪 Tests et couverture
+coverage/
+.karma/
+.protractor/
+e2e/results/
+e2e/reports/
+
+# 🛠️ IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 🔧 OS et système
+.DS_Store
+Thumbs.db
+
+# 📋 Git
+.git
+.gitignore
+README.md
+
+# 🐳 Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# 🎨 Design et assets temporaires
+*.psd
+*.ai
+*.sketch
+
+# 📱 Mobile
+platforms/
+plugins/
+www/
+
+# 🔍 Linting
+.eslintcache

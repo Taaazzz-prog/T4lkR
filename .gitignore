@@ -1,0 +1,287 @@
+# 💝 T4lkR - En mémoire de Jerome Garnier (Psykup25)
+# Fichier .gitignore principal pour éviter de pousser les fichiers inutiles
+
+# ===================================
+# Dependencies & Package Managers
+# ===================================
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===================================
+# Environment & Configuration
+# ===================================
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.jerome
+
+# ===================================
+# Build Outputs
+# ===================================
+# Angular
+/client/dist/
+/client/tmp/
+/client/out-tsc/
+/client/bazel-out/
+/client/.angular/cache/
+
+# Node.js
+build/
+dist/
+*.tgz
+
+# ===================================
+# Runtime & Logs
+# ===================================
+pids
+*.pid
+*.seed
+*.pid.lock
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ===================================
+# Test Coverage
+# ===================================
+coverage/
+*.lcov
+.nyc_output
+/client/coverage/
+/server/coverage/
+
+# ===================================
+# IDEs & Editors
+# ===================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/settings.json
+.history/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===================================
+# OS Generated Files
+# ===================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Linux
+*~
+.directory
+
+# ===================================
+# Docker & Containerization
+# ===================================
+.docker/
+docker-compose.override.yml
+.dockerignore
+
+# ===================================
+# Database & Cache
+# ===================================
+# MongoDB
+/data/
+*.lock
+
+# Redis
+dump.rdb
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# ===================================
+# Temporary Files
+# ===================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# ===================================
+# Security & Sensitive Data
+# ===================================
+# SSL Certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# JWT Secrets
+jwt-secret
+secret-key
+
+# ===================================
+# Angular Specific
+# ===================================
+# Compiled output
+/client/dist
+/client/tmp
+/client/out-tsc
+/client/bazel-out
+
+# Angular cache
+/client/.angular/cache
+
+# ===================================
+# Node.js Specific  
+# ===================================
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# ===================================
+# Development Tools
+# ===================================
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+
+# TypeScript
+*.tsbuildinfo
+
+# ===================================
+# Archives & Packages
+# ===================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===================================
+# Jerome's Personal Files (if any)
+# ===================================
+jerome-notes/
+personal/
+private-docs/
+
+# ===================================
+# Project Specific Exclusions
+# ===================================
+# Ignore build artifacts but keep source
+/build
+/dist
+
+# Documentation builds (keep source .md files)
+/docs/build
+
+# Keep important config files
+!docker-compose.yml
+!Dockerfile
+!.dockerignore
+!package.json
+!tsconfig.json
+!angular.json
+!tailwind.config.js
+
+# ===================================
+# Git & Version Control
+# ===================================
+.git/
+.gitattributes
+.gitmodules
+
+# ===================================
+# Miscellaneous
+# ===================================
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# Sass
+.sass-cache/
+
+# Connect lock file
+/client/connect.lock
+
+# TypeScript cache
+/client/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# ===================================
+# En mémoire de Jerome Garnier (Psykup25)
+# Ce fichier protège le projet T4lkR des fichiers inutiles
+# pour que seul le code source et la configuration soient versionnés
+# ===================================
